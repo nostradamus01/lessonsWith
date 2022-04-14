@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.dont-press {
+    padding: 1.4em 2em;
+    font-size: 2em;
+    border: 8px solid #fff;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+}
